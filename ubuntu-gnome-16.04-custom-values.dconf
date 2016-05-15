@@ -1,0 +1,29 @@
+# Import: dconf load / < ubuntu-gnome-16.04-custom-values.dconf
+# Settings for GNOME classic session
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-type='nothing'
+lid-close-battery-action='blank'
+sleep-inactive-battery-type='nothing'
+lid-close-ac-action='blank'
+
+[org/gnome/settings-daemon/plugins/xsettings]
+overrides={'Gtk/ShellShowsAppMenu': <0>}
+
+[org/gnome/shell/overrides]
+dynamic-workspaces=false
+
+[org/gnome/desktop/interface]
+clock-show-date=true
+
+[org/gnome/desktop/media-handling]
+autorun-never=true
+
+[org/gnome/desktop/screensaver]
+lock-enabled=false
+
+[org/gnome/desktop/wm/preferences]
+num-workspaces=1
+
+[org/gnome/desktop/background]
+show-desktop-icons=true
