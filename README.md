@@ -1,2 +1,2 @@
 # linux-miscellanea
-Things to keep from my GNU/Linux experience
+Things from my GNU/Linux experience
