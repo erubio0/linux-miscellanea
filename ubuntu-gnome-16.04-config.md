@@ -24,7 +24,11 @@ sudo apt-get update
 sudo apt-get install arc-theme
 gsettings set org.gnome.desktop.interface gtk-theme 'Arc'
 ```
+Font size
 
-
+* Gnome
+  * Use tweak tool
+* Firefox
+  * about:config -> layout.css.devPixelsPerPx
 
 
