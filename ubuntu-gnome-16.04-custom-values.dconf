@@ -13,6 +13,9 @@ overrides={'Gtk/ShellShowsAppMenu': <0>}
 [org/gnome/shell/overrides]
 dynamic-workspaces=false
 
+[org/gnome/nautilus/desktop]
+volumes-visible=true
+
 [org/gnome/desktop/interface]
 clock-show-date=true
 
