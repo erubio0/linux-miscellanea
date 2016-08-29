@@ -8,7 +8,7 @@ sudo apt-get update && sudo apt-get upgrade
 
 Install additional packages:
 ```bash
-sudo apt-get install cryptsetup synaptic
+sudo apt-get install cryptsetup synaptic ttf-mscorefonts-installer
 ```
 
 Import GNOME settings (can be easily exported using `dconf dump / > custom-values.dconf`):
